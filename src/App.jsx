@@ -11,7 +11,7 @@ import Wallet from './components/wallet'
 import Cart from './components/cart'
 
 function App() {
-  const [activeIcon, setActiveIcon] = useState(null);
+  const [activeIcon, setActiveIcon] = useState('home');
 
   return (
     <div className='bg-rose-50 h-screen flex flex-col'>
